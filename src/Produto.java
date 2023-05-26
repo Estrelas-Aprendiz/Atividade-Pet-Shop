@@ -1,4 +1,3 @@
-package src;
 
 public abstract class Produto {
     protected double preco;
@@ -17,13 +16,6 @@ public abstract class Produto {
         this.codigoDeBarras = Produto.contCodigoDeBarras;
     }
 
-    public String mostrarProduto(){
-        return "Preco=" + preco +
-                ", descricao='" + descricao + '\'' +
-                ", marca='" + marca + '\'' +
-                ", material='" + material + '\'' +
-                ", codigoDeBarras=" + codigoDeBarras;
-    }
 
     public double getPreco() {
         return preco;

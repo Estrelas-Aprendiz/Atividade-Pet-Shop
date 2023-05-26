@@ -1,6 +1,5 @@
-package src;
 
-public abstract class Brinquedos extends Produto{
+public abstract class Brinquedos extends Produto {
     protected double faxaEtaria;
     protected String dimensao;
     protected String cor;
@@ -11,9 +10,12 @@ public abstract class Brinquedos extends Produto{
         this.dimensao = dimensao;
         this.cor = cor;
     }
-    @Override
-    public String mostrarProduto() {
-        return super.mostrarProduto()+"\nFaixa etaria: "+faxaEtaria+"\nDimensão: "+dimensao+"\nCor: "+cor;
+    public String mostrarBrinquedos(){
+        return "Preco=" + preco +
+                ", descricao='" + descricao + '\'' +
+                ", marca='" + marca + '\'' +
+                ", material='" + material + '\'' +
+                ", codigoDeBarras=" + codigoDeBarras;
     }
 }
 

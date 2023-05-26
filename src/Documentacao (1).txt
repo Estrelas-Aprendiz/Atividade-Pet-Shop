@@ -1,0 +1,42 @@
+Classe 'Produto' é abstrata pois está servindo como modelo para classe 'Brinquedo'
+
+Classe 'Brinquedo' é abstrata por só demonstrar os atritubo que todo brinquedo deve receber.
+    Atritubos da classe 'Brinquedo':
+    -preço, faixa etaria, marca, material, descrição, dimensão, cor
+
+
+Classes filhas 'BrinquedosComSom' e 'BrinquedosParaMorder' que extends da classe 'Brinquedo'
+
+Nas classes filhas foi utilizado o  polimorfismo pois adicionamos dois atritubos novos para cada uma
+sendo na  'BrinquedosComSom' = tipoDeSom | 'BrinquedosParaMorder' = textura.
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Grupo Margarida
+
+Fizemos o Overide do metodo MostrarProduto();
+Dentro da Classe BrinquedosComSom;
+E dentro da classse BrinquedosParaMorder:
+
+
+- Dentro da Classe BrinquedosParaMorder:
+No Metodo MostarBrinquedo
+Incluimos, Dimensao, faixa etaria , Cor e Textura.
+
+- Na Classe BrinquedosComSom 
+No Metodo MostrarBrinquedos
+Foi adicionado Dimensao, faixa etaria, Cor e Tipo de Som
+
+- O metodo mostrar produto saiu de  Classe produto e foi para 
+Classe Briquedo Com o nome de mostar Brinquedo.
+
+PROXIMO GRUPO: Verificar se as alteraçoes estao funcionando!!
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
