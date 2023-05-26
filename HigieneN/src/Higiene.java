@@ -11,29 +11,29 @@ public class Higiene implements Limpeza{
         if(peloLimpo){
             System.out.println("O animal não precisa de banho!");
         }
+        secar();
         return true;
     }
-
     @Override
-    public boolean secar(String peloSeco) {
-        if(peloLimpo){
-            System.out.println("O animal não precisa ser secado!");
-        }
+    public boolean secar() {
+
         return true;
     }
-
     @Override
     public void tosar(String peloTamanho) {
-        if(peloTamanho.equalsIgnoreCase("curto")){
+        if (peloTamanho.equalsIgnoreCase("curto")) {
             System.out.println("O animal não precisa de tosa!");
-        } else peloTamanho = "curto";
+        } else {
+            System.out.println("O animal esta sendo tosado");
+        }
     }
-
     @Override
     public void cortarUnha(String unhaTamanho) {
         if(unhaTamanho.equalsIgnoreCase("curta")){
             System.out.println("A unha não precisa ser cortada!");
-        } else unhaTamanho = "curta";
+        }
+        else {
+            System.out.println("O animal esta indo cortar as unhas");
+        }
     }
-
 }
