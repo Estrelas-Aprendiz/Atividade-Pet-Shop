@@ -1,0 +1,7 @@
+Setor- FARMACEUTICO 
+
+Criamos uma interface chamada: Farmacia. 
+Depois uma classe pai chamada :Remedio, e as classes remediocachorro e remediogato extends da classe remedio.
+Remedio implements farmacia.
+Criamos atributos na classe pai chamados : nome e miligrama, que serão herdados pelas classes filhas.
+Herança: Remedio - remediocachorro e remediogato
