@@ -1,0 +1,12 @@
+1 - Criamos uma interface (Limpeza) - nela contem os metodos: Lavar, Secar, Tossar, CortarUnhas.
+2 - Criamos também uma classe (Higiene) e implementamos nela a interface.
+3 - Na classe (Higiene) fizemos um Override para todos os metodos e colocamos os nossos atributos nos metodos.
+
+JÁ UTILIZAMOS
+
+-Abstração - interface limpeza
+-Atributos - private boolean peloLimpo; private boolean peloSeco; private String peloTamanho; private String unhaTamanho;
+-Encapsulamento - private
+-Métodos - lavar, tosar, cortas unhas e secar.
+-Classe - higiene.
+-Polimorfismo - override.
