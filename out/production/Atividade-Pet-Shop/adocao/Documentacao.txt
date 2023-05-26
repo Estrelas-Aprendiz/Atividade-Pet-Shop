@@ -21,30 +21,3 @@ Método adotar:
 Mostrar todos os animais disponiveis e realizar a ficha de adoção(Um método pra mostrar info sobre adocao),e retirar
 o animal da lista
 
--------------------------------------------------------------------------------------------------------------------------------
-Grupo Margarida
-
-Dentro da Classe Cachorro
-
-Criamos um metodo MostrarCachorro();
-Para exibir os cachorros que existem na lista
-Com nome, idade , raça e peso!
-
-Dentro da Classe Gato
-
-Criamos um Metodo MostrarGato()
-Para exibir os gatos que existem na lista
- que vai mostrar as informacoes nome idade raça e peso
-
-No setor Setor adoçao
-
-Dentro do For no Case 1 e no Case 2
-
-Foi adicionado uma lista com os atributos do animal
-
-cachorro.Adocao.add();
-
-
-
-
-

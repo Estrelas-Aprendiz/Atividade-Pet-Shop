@@ -1,5 +1,8 @@
 package adocao;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Cliente {
     private String nome;
     private String cpf;
@@ -14,4 +17,6 @@ public class Cliente {
         this.idade = idade;
         this.sexo = sexo;
     }
+
+
 }
