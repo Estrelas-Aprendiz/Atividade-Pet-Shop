@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d29392f5-734b-4d98-a1b2-124ea5f8d397" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SetorAlimenticio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SetorAlimenticio/Alimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SetorAlimenticio/Racao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercicios Intellij/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercicios Intellij/Exercicio1/AlgoritmoFazerCafe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercicios Intellij/Exercicio2/AlgoritmoComprasRemedios.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercicios Intellij/Exercicio3/AlgoritmoBoloDeChocolate.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercicios Intellij/Exercicio4/AlgoritmoTrabalhar.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SetorAlimenticio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetorAlimenticio/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grupomargarida-Documentacao.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetorAlimenticio.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SetorAlimenticio/Alimento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SetorAlimenticio/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SetorAlimenticio/Racao.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +36,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Myllena.Faria/Documents/Formação técnica/Aula29/DesafioGrupo/Atividade-Pet-Shop"
   }
 }]]></component>
   <component name="RunManager">
