@@ -13,4 +13,8 @@ public class ProdutosHigiene {
         this.capacidade = capacidade;
         this.composicao = composicao;
     }
+
+    public static void usarProduto(){
+
+    }
 }

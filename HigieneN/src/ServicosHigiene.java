@@ -1,10 +1,6 @@
 package HigieneN.src;
 
 public class ServicosHigiene implements Limpeza{
-    private boolean peloLimpo;
-    private boolean peloSeco;
-    private String peloTamanho;
-    private String unhaTamanho;
 
     @Override
     public boolean lavar(boolean peloLimpo) {
@@ -23,17 +19,20 @@ public class ServicosHigiene implements Limpeza{
     public void tosar(String peloTamanho) {
         if (peloTamanho.equalsIgnoreCase("curto")) {
             System.out.println("O animal não precisa de tosa!");
-        } else {
+        } else if (peloTamanho.equalsIgnoreCase("longo")){
             System.out.println("O animal esta sendo tosado");
+        }else {
+            System.out.println("Opcao invalida");
         }
     }
     @Override
     public void cortarUnha(String unhaTamanho) {
         if(unhaTamanho.equalsIgnoreCase("curta")){
             System.out.println("A unha não precisa ser cortada!");
-        }
-        else {
+        } else if (unhaTamanho.equalsIgnoreCase("longa")){
             System.out.println("O animal esta indo cortar as unhas");
+        }else{
+            System.out.println("Opcao invalida");
         }
     }
 }

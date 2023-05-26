@@ -18,5 +18,47 @@ métodos da classe servicosHigiene.
 Classe ProdutosHigiene
     Ela comporta vários tipos e categorias de produtos.Ela extenderá a classe Produto em momento futuro(reunião geral)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Grupo Margarida
+
+- Foi adicionado o campo Default no switch case
+Para caso nenhuma das opçoes Seja Digitada corretamente
+Ser exibida uma mensagem de erro.
+
+Realizamos Testes para verificar se os metodos estao funcionando
+
+- Foi realizado alteraçao no Switch case
+Dentro do System.out.print
+Para " Qual o comprimento do pelo do seu animal";
+
+
+- No metodo tosar na classse servicoHigiene
+O else foi substituido por else if
+para incluir a entrada longo
+Fizemos o mesmo No metodo Cortar unha
+
+ -Retiramos 4 atributos da Classe
+ ServiçoHigiene, pois nao estavam sendo ultilizados.
+
+
+Realizamos todos testes necessarios!
+
+--------------------------------------------------
+
+PROXIMO GRUPO
+
+Criar um metodo usarProduto na classe produtosHigiene
+, que decide qual produto vai ser usado de acordo com
+o procedimento escolhido.
+Na classe Verificação, dentro do método verificarCachorro
+, coloque o método criado dentro de cada if/else das verificações.
+
+Verificar se todos os atributos estão sendo utilizados, se sim, teste as classes, senao,
+refine o código, para que não fique redundante
+
+
+
+
 
 
