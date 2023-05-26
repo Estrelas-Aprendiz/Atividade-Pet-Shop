@@ -1,0 +1,9 @@
+1° Adicionamos a caixa de brinquedos e cada caixa contém uma função diferente dos brinquedos.
+uma caixa tem a função de emitir SONS e outra caixa a função de MORDER.
+
+2° Criamos uma classe (pai) para  caixaBrinquedos que contem.
+Idade: o brinquedo de cada idade do cachorro
+Tamanho: para qual tamanho o brinquedo serve para o cachorro
+Preço: cada brinquedo tem um determinado valor.
+
+Não finalizado: criar objetos de brinquedos que emitem sons e brinquedos para morder, adicionar preço, idade e tamanho
