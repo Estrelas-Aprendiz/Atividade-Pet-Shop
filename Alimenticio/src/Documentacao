@@ -1,0 +1,34 @@
+1 - classe Alimento
+Possui 5 atributos privados
+● preço (double)
+● nome (String)
+● marca (String)
+● pesodoKg (double)
+● categoria (String)
+Possui os Métodos:
+● Construtor Alimento com parâmetros
+dos atributos da classe e do tratamento.
+
+● Método public void gerarAlimento ()
+Usamos o Scanner para coletar informações do teclado do usuário
+1- Ração
+2- Petisco
+3-Sache
+4 -Suplemento
+
+Criamos um Switch case que coleta a entrada de dados e decide para qual classe ir.
+Dentro dela um objeto foi criado.
+
+2- Classe Ração
+Criamos a classe ração e estendemos o método Alimento
+passando um atributo privado do tipo inteiro pacote
+
+3- Como já existia a classe Alimentos implementamos a interface chamada setorAlimentos
+Criamos 2 métodos abstratos dentro dessa interface
+Foi finalizada a construção do switch.
+Foi implementado todos os getters e sobrescrevemos o método mostrarInformação
+Foram criadas as classes sachê, petisco e suplemento onde todas herdaram de Alimento e foram criados seus objetos.
+
+4 - Criamos uma while para que seja possivel o usuario escolher mais de um produto.
+5 - Criamos tambem uma lista para que todos os produtos selecionados seja guardado nela.
+6 - No final do while sera possivel ver todos os itens selecionados pelo usuario
