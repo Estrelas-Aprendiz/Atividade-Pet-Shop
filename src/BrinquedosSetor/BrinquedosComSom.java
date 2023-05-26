@@ -9,7 +9,7 @@ public class BrinquedosComSom extends Brinquedos {
     }
 @Override
     public String mostrarBrinquedos(){
-        return "Preco = " + preco +
+        return "\nPreco = " + preco +
                 "\nDescricao = " + descricao +
                 "\nMarca = " + marca +
                 "\nMaterial = " + material +
