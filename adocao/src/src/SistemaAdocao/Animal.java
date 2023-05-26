@@ -12,4 +12,6 @@ abstract class Animal {
         this.idade = idade;
         this.peso = peso;
     }
+
+    public abstract void mostrarAnimal();
 }

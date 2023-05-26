@@ -5,11 +5,13 @@ public class Gato extends Animal {
         super(raca, nome, idade, peso);
     }
 
-    public void mostrarGatos() {
-        System.out.println("Nome: " + nome +
+    @Override
+    public void mostrarAnimal() {
+        System.out.println("\nNome: " + nome +
                 "\n Raça: " + raca +
                 "\n Idade: " + idade +
                 "\n Peso: " + peso);
     }
+
 }
 

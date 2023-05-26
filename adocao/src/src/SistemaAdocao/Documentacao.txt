@@ -52,6 +52,11 @@ Foram criados dois objetos do tipo Cachorro, e inicializada a lista de cachorroA
 É necessário realizar uma mudança no switch, onde tiraríamos o for, e ao invés disso, seria criado
 um objeto para cada cachorro, onde esses objetos conseguem chamar o método de mostrarInformacoes.
 
+-------------------------------------------------------------------------------------------------------------------------------
+GRUPO GIRASSOL
 
+Foi criado um While com o objetivo de corrigir o erro do Switch (ele não conseguia captar a resposta do usuário) e do usuário ter a opção de adotar mais de um animal.
+
+Próximos Passos:Utilizar ou excluir a variável dataAdocao.
 
 
