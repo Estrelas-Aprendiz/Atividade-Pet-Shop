@@ -17,7 +17,7 @@ public class Brinquedos extends Produto {
     }
 
     public String mostrarBrinquedos() {
-        return "Preco = " + preco +
+        return "\nPreco = " + preco +
                 "\nDescricao = " + descricao +
                 "\nmarca = " + marca +
                 "\nmaterial = " + material +
@@ -30,6 +30,9 @@ public class Brinquedos extends Produto {
         Scanner ler = new Scanner(System.in);
         int escolha =0;
 
+        BrinquedosComSom bola = new BrinquedosComSom();
+        BrinquedosparaMorder mordedor = new BrinquedosparaMorder();
+
         while(escolha != 3) {
 
             System.out.println("\nQual brinquedo você quer?\n1 - Brinquedo com som\n2 - Brinquedo para morder\n3 - Mostrar lista e sair");
@@ -37,18 +40,17 @@ public class Brinquedos extends Produto {
 
             switch (escolha) {
                 case 1:
-                    BrinquedosComSom bola = new BrinquedosComSom();
                     System.out.println(bola.mostrarBrinquedos());
                     brinquedos.add(bola);
                     break;
                 case 2:
-                    BrinquedosparaMorder mordedor = new BrinquedosparaMorder();
                     System.out.println(mordedor.mostrarBrinquedos());
                     brinquedos.add(mordedor);
                     break;
                 case 3:
+                    System.out.println("----- LISTA PRODUTOS -----");
                     for(int i=0; i<brinquedos.size();i++){
-                        brinquedos.get(i).mostrarBrinquedos();
+                        System.out.println(brinquedos.get(i).mostrarBrinquedos());
                     }
                     break;
                 default:
