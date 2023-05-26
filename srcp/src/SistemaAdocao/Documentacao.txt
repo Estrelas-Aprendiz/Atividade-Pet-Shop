@@ -59,4 +59,9 @@ Foi criado um While com o objetivo de corrigir o erro do Switch (ele não conseg
 
 Próximos Passos:Utilizar ou excluir a variável dataAdocao.
 
+--------------------------------------------------------------------------------------------------------------------------------------
+Grupo Orquidea:
 
+Concluimos o swit case para dar opção de qual cachorro o usuario deseja esolher
+depois fizemos um método para qual cachorro da lista o usuário deseja adotar
+e exluimos o método cadastrar cliente por falta de tempo

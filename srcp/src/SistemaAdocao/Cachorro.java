@@ -6,12 +6,12 @@ public class Cachorro extends Animal{
 
     }
 
-    @Override
-    public void mostrarAnimal() {
-        System.out.println("\nNome: " + nome +
+    public void mostrarCachorros() {
+        System.out.println();
+        System.out.println("Nome: " + nome +
                 "\n Raça: " + raca +
                 "\n Idade: " + idade +
                 "\n Peso: " + peso);
-    }
 
+    }
 }
