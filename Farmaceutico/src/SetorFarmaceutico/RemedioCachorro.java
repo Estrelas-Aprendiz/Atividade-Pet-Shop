@@ -1,7 +1,12 @@
 package SetorFarmaceutico;
 
 public class RemedioCachorro extends Remedio implements Farmacia{
-    public RemedioCachorro(String nome, double miligrama) {
-        super(nome, miligrama);
+
+    public RemedioCachorro(String nome, double miligrama, double preco) {
+        super();
+    }
+
+    @Override
+    public void vender() {
     }
 }
