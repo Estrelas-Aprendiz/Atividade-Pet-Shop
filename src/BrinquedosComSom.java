@@ -1,9 +1,13 @@
-public class BrinquedosComSom extends CaixaBrinquedos {
+package src;
+public class BrinquedosComSom extends Brinquedos {
+    private String tipoDeSom;
 
-
-    public BrinquedosComSom(double preco, double tamanho, String idade) {
-        super(preco, tamanho, idade);
+    public BrinquedosComSom(double preco, String descricao, String marca, String material, double faxaEtaria, String dimensao, String cor, String tipoDeSom) {
+        super(preco, descricao, marca, material, faxaEtaria, dimensao, cor);
+        this.tipoDeSom = tipoDeSom;
     }
 
-   BrinquedosComSom patinho = new BrinquedosComSom()
+    public void emitirSom(){
+        System.out.println(tipoDeSom);
+    }
 }

@@ -1,0 +1,14 @@
+Classe 'Produto' é abstrata pois está servindo como modelo para classe 'Brinquedo'
+
+Classe 'Brinquedo' é abstrata por só demonstrar os atritubo que todo brinquedo deve receber.
+    Atritubos da classe 'Brinquedo':
+    -preço, faixa etaria, marca, material, descrição, dimensão, cor
+
+
+Classes filhas 'BrinquedosComSom' e 'BrinquedosParaMorder' que extends da classe 'Brinquedo'
+
+Nas classes filhas foi utilizado o  polimorfismo pois adicionamos dois atritubos novos para cada uma
+sendo na  'BrinquedosComSom' = tipoDeSom | 'BrinquedosParaMorder' = textura.
+
+
+PROXIMO GRUPO FAZER: o Override do 'mostrarProduto()' para as classes 'BrinquedosComSom' e 'BrinquedosParaMorder'
