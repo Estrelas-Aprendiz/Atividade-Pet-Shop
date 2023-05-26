@@ -1,6 +1,7 @@
 package SetorFarmaceutico;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Remedio {
     private String nome;
@@ -39,10 +40,19 @@ public class Remedio {
         remedio.add(new RemedioGato("Dermotan",2,23.00));
 
         for(int i=0; i<remedio.size(); i++){
-            // nessa parte do codigo nas queriamos que fosse exibido pro usuario todos os item da lita
-            // mas não conseguimos finaliza-lo
-            //System.out.println(remedio);
-            //System.out.println(mostrarDetalhesDoItem());
+            System.out.println(remedio.get(i).mostrarDetalhesDoItem());
         }
     }
-}
+
+    public void verificarProdutodoUser(){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Informe qual remédio deseja comprar: ");
+        System.out.println("1- Otovet \t 2- IverCanis \t 3- Ivetril \t 4-Dermotan");
+
+        switch (input.nextInt()){
+            case 1:
+//             aqui eu chamaria a classe do remedio e seu método vender
+//                fazendo isso para todos os cases
+        }
+    }
+    }

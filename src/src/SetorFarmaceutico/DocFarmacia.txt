@@ -12,4 +12,10 @@ o usuário vai receber o remédio informado na lista de acordo com o número que
 
 Ex: se o usuário digitar o número 1, ele vai receber o remédio "Otovet", se digitar o número 2, vai receber o remédio "IverCanis".
 
-Próximos passos: Gostaríamos de criar um menu de remédio para o cliente ter a opção de escolher.
+Próximos passos: Gostaríamos de criar um menu de remédio para o cliente ter a opção de escolher.-ok
+
+Conluimos a exibição da lista de cachorro e gato e criamos um método para verificar se o
+usuário quer escolher qual escolher qual remédio
+-------Próximos passos------
+Implementar lógica no método vender de cada classe e fazer o swit case para verificar
+o que o usuário vai escolher

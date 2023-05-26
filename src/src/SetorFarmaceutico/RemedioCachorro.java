@@ -8,5 +8,6 @@ public class RemedioCachorro extends Remedio implements Farmacia{
 
     @Override
     public void vender() {
+        //        paramos em implementar um lógica neste método
     }
 }
