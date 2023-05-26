@@ -1,6 +1,6 @@
-package higiene.src;
+package HigieneN.src;
 
-public class Higiene implements Limpeza{
+public class ServicosHigiene implements Limpeza{
     private boolean peloLimpo;
     private boolean peloSeco;
     private String peloTamanho;

@@ -1,10 +1,11 @@
+package HigieneN.src;
 import java.util.Scanner;
 
 public class Verificacao {
         static Scanner input = new Scanner(System.in);
 
         public static void verificarCachorro() {
-            Higiene higiene = new Higiene();
+            ServicosHigiene servicosHigiene = new ServicosHigiene();
             System.out.println("Informe a opção desejada: ");
             System.out.println("1- Lavar \t 2- Tosar \t 3- Cortar as Unhas");
             switch (input.nextInt()) {
@@ -12,19 +13,19 @@ public class Verificacao {
                     System.out.println("Informe a codição do pelo: ");
                     System.out.println("1- Limpo \t 2- Sujo");
                     if (input.nextInt() == 1) {
-                        higiene.lavar(true);
+                        servicosHigiene.lavar(true);
                     } else {
                         System.out.println("Animal indo para o banho");
-                        higiene.lavar(false);
+                        servicosHigiene.lavar(false);
                     }
                     break;
                 case 2:
                     System.out.println("Qual tamanho do pelo do seu animal:");
-                    higiene.tosar(input.next());
+                    servicosHigiene.tosar(input.next());
                     break;
                 case 3:
                     System.out.println("Qual tamanho da unha do seu animal:");
-                    higiene.cortarUnha(input.next());
+                    servicosHigiene.cortarUnha(input.next());
             }
         }
 

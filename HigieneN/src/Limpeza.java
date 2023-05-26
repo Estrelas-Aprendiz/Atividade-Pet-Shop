@@ -1,4 +1,4 @@
-package higiene.src;
+package HigieneN.src;
 
 public interface Limpeza {
 
