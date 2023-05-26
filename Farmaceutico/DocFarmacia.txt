@@ -5,3 +5,26 @@ Depois uma classe pai chamada :Remedio, e as classes remediocachorro e remedioga
 Remedio implements farmacia.
 Criamos atributos na classe pai chamados : nome e miligrama, que serão herdados pelas classes filhas.
 Herança: Remedio - remediocachorro e remediogato
+
+------------------------------------------------------
+Grupo margarida
+
+Criamos um metodo na classe farmacia
+
+ void medicarAnimal()
+
+- Sobrescrevemos o metodo MedicarAnimal na classe RemedioCachorro
+- Criamos um Switch case
+Para verificar se o animal precisa ser medicado
+
+- Sobrescrevemos o metodo MedicarAnimal na classe RemedioGato
+e criamos o Switch case para verificar se
+o animal precisa ser medicado
+
+Criamos um metodo MostrarRemedio()
+Dentro da Classe Remedio para exibir o
+remedio criado, dentro dele colocamos um System.out.print
+para imprimir as informações de medicação do animal.
+
+nos métodos sobreescritos de medicarAnimal, adicionamos a mensagem que
+o cachorro ou gato foi medicado com o remedio (nesse momento, chamamos o método mostrarRemedio)
