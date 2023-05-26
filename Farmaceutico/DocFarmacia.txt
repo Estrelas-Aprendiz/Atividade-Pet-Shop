@@ -4,4 +4,12 @@ Criamos uma interface chamada: Farmacia.
 Depois uma classe pai chamada :Remedio, e as classes remediocachorro e remediogato extends da classe remedio.
 Remedio implements farmacia.
 Criamos atributos na classe pai chamados : nome e miligrama, que serão herdados pelas classes filhas.
-Herança: Remedio - remediocachorro e remediogato
+
+Herança: Remedio - remediocachorro e remediogato.
+
+Objeto: Foi criado uma lista para gato e cachorro com o objetivo do usuário escolher qual remédio ele gostaria de obter
+o usuário vai receber o remédio informado na lista de acordo com o número que ele digitar.
+
+Ex: se o usuário digitar o número 1, ele vai receber o remédio "Otovet", se digitar o número 2, vai receber o remédio "IverCanis".
+
+Próximos passos: Gostaríamos de criar um menu de remédio para o cliente ter a opção de escolher.
