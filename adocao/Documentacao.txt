@@ -1,0 +1,23 @@
+Decidimos que:
+-ter uma ficha para o cliente cadastrar seus dados para iniciar a adoção;
+-ter uma lista com informações de gato e cachorro:
+    nome, idade, raça, peso.
+
+Descrever as classes 'Animal', 'Gato', 'Cachorro', 'Cliente'
+
+'Animal' - classe pai
+'Gato' e 'Cachorro' - extends de Animal (HERANÇA)
+'Cliente' - apenas uma classe
+
+Criamos três listas:
+uma para cachorro: que serve para salvar e mostrar as informações
+uma para gatos: que serve para salvar e mostrar as informações
+uma para cliente: server para salvar os dados cadastrados dele
+
+Método cadastrarCliente:
+Cadastra um novo cliente e adiciona a lista de clientes cadastrados
+
+Método adotar:
+Mostrar todos os animais disponiveis e realizar a ficha de adoção(Um método pra mostrar info sobre adocao),e retirar
+o animal da lista
+
