@@ -57,7 +57,12 @@ Na classe Verificação, dentro do método verificarCachorro
 Verificar se todos os atributos estão sendo utilizados, se sim, teste as classes, senao,
 refine o código, para que não fique redundante
 
-
+--------------------------------------------------
+Grupo Rosa:
+Como em algum momento foi excluída a classe Produto, a classe ProdutosHigiene ficou sem funcionalidade.
+Portanto, decimos excluí-la.
+Mudamos o menu switch para um menu mais responsivo.
+Criamos uma main para teste e testamos todas as funções.
 
 
 
