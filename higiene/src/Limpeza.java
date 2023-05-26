@@ -1,3 +1,5 @@
+package higiene.src;
+
 public interface Limpeza {
 
     boolean lavar(boolean peloLimpo);

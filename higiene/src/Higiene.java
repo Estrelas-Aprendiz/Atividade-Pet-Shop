@@ -1,3 +1,5 @@
+package higiene.src;
+
 public class Higiene implements Limpeza{
     private boolean peloLimpo;
     private boolean peloSeco;
