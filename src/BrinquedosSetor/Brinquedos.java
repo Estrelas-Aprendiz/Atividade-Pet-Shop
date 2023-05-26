@@ -25,7 +25,7 @@ public class Brinquedos extends Produto {
     }
 
     public void decisao(){
-        List<Brinquedos> brinquedos = new ArrayList<>(4);
+        List<Brinquedos> brinquedos = new ArrayList<>();
 
         Scanner ler = new Scanner(System.in);
         int escolha =0;
