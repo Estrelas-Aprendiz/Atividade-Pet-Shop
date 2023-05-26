@@ -10,3 +10,9 @@ JÁ UTILIZAMOS
 -Métodos - lavar, tosar, cortas unhas e secar.
 -Classe - higiene.
 -Polimorfismo - override.
+
+Fizemos um método verificação que permite que o usuario interaja escolhendo o que ele deseja fazer
+passando como parametro a condição do cachorro, dentro do método verifiação inlcuimo todos os outros
+métodos da classe higiene.
+
+Não finalizado: Criar uma loja de produtos higienico

@@ -1,7 +1,7 @@
 public interface Limpeza {
 
     boolean lavar(boolean peloLimpo);
-    boolean secar(String peloEstado);
+    boolean secar();
     void tosar(String peloTamanho);
     void cortarUnha(String unhaTamanho);
 }
