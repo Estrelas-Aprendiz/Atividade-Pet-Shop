@@ -16,45 +16,5 @@ public abstract class Produto {
         Produto.contCodigoDeBarras++;
         this.codigoDeBarras = Produto.contCodigoDeBarras;
     }
-
-
-    public double getPreco() {
-        return preco;
-    }
-
-    public void setPreco(double preco) {
-        this.preco = preco;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
-    public String getMarca() {
-        return marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
-    public String getMaterial() {
-        return material;
-    }
-
-    public void setMaterial(String material) {
-        this.material = material;
-    }
-
-    public int getCodigoDeBarras() {
-        return codigoDeBarras;
-    }
-
-    public void setCodigoDeBarras(int codigoDeBarras) {
-        this.codigoDeBarras = codigoDeBarras;
-    }
+    public abstract String mostrarBrinquedos();
 }

@@ -9,15 +9,15 @@ public class BrinquedosparaMorder extends Brinquedos {
     }
     @Override
     public String mostrarBrinquedos(){
-        return "Preco=" + preco +
-                ", descricao='" + descricao + '\'' +
-                ", marca='" + marca + '\'' +
-                ", material='" + material + '\'' +
-                ", codigoDeBarras=" + codigoDeBarras + '\'' +
-                ", dimensao= " + dimensao + '\'' +
-                ", faixa etaria= " + faixaEtaria + '\'' +
-                ", cor= " + cor + '\'' +
-                ", textura= " + textura;
+        return "Preco = " + preco +
+                "\nDescricao = " + descricao +
+                "\nMarca = " + marca +
+                "\nMaterial = " + material +
+                "\nCodigo De Barras = " + codigoDeBarras +
+                "\nDimensao = " + dimensao +
+                "\nFaixa etaria = " + faixaEtaria +
+                "\nCor = " + cor +
+                "\nTextura = " + textura;
     }
 }
 

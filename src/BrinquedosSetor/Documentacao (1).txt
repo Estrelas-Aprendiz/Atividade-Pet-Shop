@@ -37,11 +37,17 @@ PROXIMO GRUPO: Verificar se as alteraçoes estao funcionando!!
 
 -------------------------------------------------------------------------------------------------------------------------------------
 Grupo Rosa.
+
 Tiramos o abstract da Classe Brinquedos pois precisavamos criar um método.
 Criamos o método de decisão na Classe Brinquedos, que implenta um switch para mostrar os brinquedos.
 (Necessário continuar o switch)
 Alteramos um pouco os prints para ficarem mais organizados. É necessário continuar isso.
 Criamos o método IniciarBriquedo para poder testar as funcionalidades.
+
+-------------------------------------------------------------------------------------------------------------------------------
+GRUPO GIRASSOL
+
+Criamos uma opção para o usuário decidir qual brinquedo gostaria, e por último mostrar a lista de itens e sair do programa
 
 
 

@@ -9,17 +9,14 @@ public class BrinquedosComSom extends Brinquedos {
     }
 @Override
     public String mostrarBrinquedos(){
-        return "Preco=" + preco +
-                ", descricao='" + descricao + '\'' +
-                ", marca='" + marca + '\'' +
-                ", material='" + material + '\'' +
-                ", codigoDeBarras=" + codigoDeBarras + '\'' +
-                ", dimensao= " + dimensao + '\'' +
-                ", faixa etaria= " + faixaEtaria + '\'' +
-                ", cor= " + cor + '\'' +
-                ", tipo de som= " + tipoDeSom;
-    }
-    public void emitirSom(){
-        System.out.println(tipoDeSom);
+        return "Preco = " + preco +
+                "\nDescricao = " + descricao +
+                "\nMarca = " + marca +
+                "\nMaterial = " + material +
+                "\nCodigo De Barras = " + codigoDeBarras +
+                "\nDimensao = " + dimensao +
+                "\nFaixa etaria = " + faixaEtaria +
+                "\nCor = " + cor +
+                "\nTipo de som = " + tipoDeSom;
     }
 }
