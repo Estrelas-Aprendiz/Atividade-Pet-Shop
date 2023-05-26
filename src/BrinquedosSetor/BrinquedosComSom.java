@@ -1,10 +1,11 @@
+package BrinquedosSetor;
 
 public class BrinquedosComSom extends Brinquedos {
     private String tipoDeSom;
 
-    public BrinquedosComSom(double preco, String descricao, String marca, String material, double faxaEtaria, String dimensao, String cor, String tipoDeSom) {
-        super(preco, descricao, marca, material, faxaEtaria, dimensao, cor);
-        this.tipoDeSom = tipoDeSom;
+    public BrinquedosComSom() {
+        super(3, "Bolinha com sininho", "petlovers", "borracha", "filhote e adulto", "pequena", "azul");
+        this.tipoDeSom = "triiiiiiim";
     }
 @Override
     public String mostrarBrinquedos(){
@@ -14,7 +15,7 @@ public class BrinquedosComSom extends Brinquedos {
                 ", material='" + material + '\'' +
                 ", codigoDeBarras=" + codigoDeBarras + '\'' +
                 ", dimensao= " + dimensao + '\'' +
-                ", faixa etaria= " + faxaEtaria + '\'' +
+                ", faixa etaria= " + faixaEtaria + '\'' +
                 ", cor= " + cor + '\'' +
                 ", tipo de som= " + tipoDeSom;
     }

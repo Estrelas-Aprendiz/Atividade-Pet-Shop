@@ -1,3 +1,4 @@
+package BrinquedosSetor;
 
 public abstract class Produto {
     protected double preco;
