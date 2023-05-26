@@ -1,4 +1,4 @@
-package adocao;
+package SistemaAdocao;
 
 import java.util.ArrayList;
 import java.util.List;

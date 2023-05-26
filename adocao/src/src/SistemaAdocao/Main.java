@@ -1,4 +1,4 @@
-package adocao;
+package SistemaAdocao;
 
 public class Main {
     public static void main(String[] args) {

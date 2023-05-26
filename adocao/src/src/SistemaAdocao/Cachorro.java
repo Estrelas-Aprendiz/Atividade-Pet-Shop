@@ -1,4 +1,4 @@
-package adocao;
+package SistemaAdocao;
 
 public class Cachorro extends Animal{
     public Cachorro(String raca, String nome, int idade, double peso) {

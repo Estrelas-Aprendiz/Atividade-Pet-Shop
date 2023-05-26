@@ -44,6 +44,13 @@ Foi adicionado uma lista com os atributos do animal
 
 cachorro.Adocao.add();
 
+-------------------------------------------------------------------------------------------------------------------------------
+Grupo Rosa:
+
+Foi corrigido um erro onde os objetos não haviam sido instanciados.
+Foram criados dois objetos do tipo Cachorro, e inicializada a lista de cachorroAdocao.
+É necessário realizar uma mudança no switch, onde tiraríamos o for, e ao invés disso, seria criado
+um objeto para cada cachorro, onde esses objetos conseguem chamar o método de mostrarInformacoes.
 
 
 

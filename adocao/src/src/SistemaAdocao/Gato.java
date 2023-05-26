@@ -1,4 +1,4 @@
-package adocao;
+package SistemaAdocao;
 
 public class Gato extends Animal {
     public Gato(String raca, String nome, int idade, double peso) {

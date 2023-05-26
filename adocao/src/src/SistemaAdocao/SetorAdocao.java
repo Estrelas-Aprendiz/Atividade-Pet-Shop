@@ -1,14 +1,13 @@
-package adocao;
+package SistemaAdocao;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class SetorAdocao {
     private LocalDate dataAdocao;
-    private List<Cachorro> cachorrosAdocao;
+    private List<Cachorro> cachorrosAdocao = new ArrayList<>();
     private List<Gato> gatosAdocao;
     private List<Cliente> clientesCadastrados;
 
@@ -26,19 +25,18 @@ public class SetorAdocao {
                 "\n2-Gato");
         switch (sc.nextInt()) {
             case 1 -> {
-
                 for (Cachorro dog : cachorrosAdocao) {
                     //mostrar cachorros
-                    cachorrosAdocao.add(new Cachorro("buldog", "asd", 2, 8));
-                    cachorrosAdocao.add(new Cachorro("asd", "era", 1, 7));
+                    cachorrosAdocao.add(new Cachorro("bulldog", "Tobi", 2, 20));
+                    cachorrosAdocao.add(new Cachorro("Shih Tzu", "Moana", 4, 5));
                     dog.mostrarCachorros();
                 }
             }
             case 2 -> {
                 for (Gato cat : gatosAdocao) {
                     //mostrar gatos
-                    gatosAdocao.add("asd", "tr", 1,2);
-                    gatosAdocao.add();
+                    gatosAdocao.add(new Gato("Siamês", "Mel", 1,2));
+                    gatosAdocao.add(new Gato("Persa", "Branquinho", 3,3));
                     cat.mostrarGatos();
                 }
             }
