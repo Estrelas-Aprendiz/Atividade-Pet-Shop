@@ -4,7 +4,7 @@ public class Main {
 
         Alimento pedido = new Alimento(0,"","",0,"");
 
-        pedido.gerarAlimento();
+        pedido.getgerarAlimento();
 
     }
 }

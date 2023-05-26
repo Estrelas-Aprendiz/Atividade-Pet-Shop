@@ -18,7 +18,7 @@ public class Alimento implements SetorAlimentos {
     }
 
     @Override
-    public void gerarAlimento() {
+    public void getgerarAlimento() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Qual alimento você deseja? " +
                 "\n 1. Ração" +
