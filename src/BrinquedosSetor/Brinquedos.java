@@ -30,8 +30,8 @@ public class Brinquedos extends Produto {
         Scanner ler = new Scanner(System.in);
         int escolha =0;
 
-        BrinquedosComSom bola = new BrinquedosComSom();
-        BrinquedosparaMorder mordedor = new BrinquedosparaMorder();
+        Brinquedos bola = new BrinquedosComSom();
+        Brinquedos mordedor = new BrinquedosparaMorder();
 
         while(escolha != 3) {
 
